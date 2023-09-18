@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #c22131;
+}
+
+
+h2 {
+    margin: 20px 10px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+
+.colorfondo {
+    background-color: #ffc4a9;
+    margin: 20px 10px;
+}
+
+.enLinea li {
+    display: inline;
+    margin: 10px;
+}
+
+
+
+.whatsapp {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+}
+
+
+#fondonegro {
+    background-color: black;
+    margin-top: 50px;
+}
+
+
+#fincamielera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*SEGUNDA PRE ENTREGA*/
+
+.navbar-imglogo {
+    width: 40px;
+    height: 40px;
+}
+
+.footer__img {
+    height: 50px;
+    width: 50px;
+}
+
+.recetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.galletitas {
+    background-color: #cecacb;
+}
+
+.otrareceta {
+    background-color: #e4e1e2;
+}
