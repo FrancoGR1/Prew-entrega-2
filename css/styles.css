@@ -30,7 +30,12 @@ img {
 
 
 
-.colorfondo {
+#colorfondo2 {
+    background-color: #ffc4a9;
+    margin: 20px 10px;
+}
+
+#colorfondo1 {
     background-color: #ffc4a9;
     margin: 20px 10px;
 }
@@ -61,6 +66,14 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: start;
+}
+
+#mielpura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
 }
 
 /*SEGUNDA PRE ENTREGA*/
@@ -83,10 +96,44 @@ img {
     gap: 10px;
 }
 
-.galletitas {
-    background-color: #cecacb;
+@media (min-width: 768px) {    
+    #grilla {
+        display: grid;
+        grid-template-areas: 
+        "descubrir mielpura";
+        grid-template-columns: auto auto;
+        grid-template-rows: 1fr;
+    }
+    img {
+        width: 100%;
+        height: 300px;
+    }    
+    #grilla2 {
+        display: grid;
+        grid-template-areas: 
+        "comentarios redes";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }    
+    footer {
+        align-self: self-end;
+    }    
 }
 
-.otrareceta {
-    background-color: #e4e1e2;
+@media (min-width: 768px) {    
+    #todaslasrecetas {
+        display: grid;
+        grid-template-areas: 
+        "recetauno recetados";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        align-items: start;
+    }    
+    .galletitas {
+        grid-area: recetauno;
+    }    
+    .otrareceta {
+        grid-area: recetados;
+    }
 }
